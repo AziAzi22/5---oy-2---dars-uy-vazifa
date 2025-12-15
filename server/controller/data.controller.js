@@ -19,18 +19,20 @@ const getData = async (req, res) => {
 const addData = async (req, res) => {
   try {
     const data = read_file("data.json");
-    const { categorie, title, img } = req.body;
+    const { categorie, title } = req.body;
 
-    if (!title || !img || !categorie) {
+    if (!title || !categorie) {
       return res.status(400).json({
         message: "title, categorie and img is required",
       });
     }
 
-    const newData = [...data, { id: v4(), categorie, title, img }];
+    const newData = [...data, { id: v4(), categorie, title }];
 
     write_file("data.json", newData);
-    res.status(201).json(newData);
+    res.status(201).json({
+      message: "Data is added",
+    });
   } catch (error) {
     res.status(500).json({
       error: error.message,
