@@ -8,5 +8,35 @@
             "id": "3c12db43-7ac3-409c-a75b-c636888ab121",
             "categorie": "star",
             "title": "qizil yulduz"
+      },
+      {
+            "id": "312c6946-8cea-4da8-8702-f416ffd4d379",
+            "categorie": "animals",
+            "title": "monkey",
+            "img": "http://localhost:4500/images/file_1765819310110.jpg"
+      },
+      {
+            "id": "fe470ef2-7981-408a-b1cc-19d514d016b5",
+            "categorie": "landshaft",
+            "title": "mondshtat",
+            "img": "http://localhost:4500/images/file_1765819335830.jpg"
+      },
+      {
+            "id": "4900fe59-8068-48a8-aedb-d8d3208c1f82",
+            "categorie": "sky",
+            "title": "sky",
+            "img": "http://localhost:4500/images/file_1765819354054.jpg"
+      },
+      {
+            "id": "124e91f0-b6d2-4109-bc32-523061b5b704",
+            "categorie": "natur",
+            "title": "regenbogen",
+            "img": "http://localhost:4500/images/file_1765819417718.jpeg"
+      },
+      {
+            "id": "7f529824-e7ef-4573-94d3-50e5e3b84a18",
+            "categorie": "landshaft",
+            "title": "gfgh",
+            "img": "http://localhost:4500/images/file_1765882529351.htm"
       }
 ]
